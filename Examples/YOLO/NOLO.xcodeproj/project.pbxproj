@@ -53,7 +53,7 @@
 
 /* Begin PBXFileReference section */
 		7B0B937D1F1E5FF30002A11A /* FPSCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSCounter.swift; sourceTree = "<group>"; };
-		7B711C7E1ECC8B13001CB7C2 /* YOLO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOLO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B711C7E1ECC8B13001CB7C2 /* NOLO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOLO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B711C861ECC8B13001CB7C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B711C881ECC8B13001CB7C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B711C8D1ECC8B13001CB7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		7B711C7F1ECC8B13001CB7C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B711C7E1ECC8B13001CB7C2 /* YOLO.app */,
+				7B711C7E1ECC8B13001CB7C2 /* NOLO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B711C7D1ECC8B13001CB7C2 /* YOLO */ = {
+		7B711C7D1ECC8B13001CB7C2 /* NOLO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B711C901ECC8B13001CB7C2 /* Build configuration list for PBXNativeTarget "YOLO" */;
+			buildConfigurationList = 7B711C901ECC8B13001CB7C2 /* Build configuration list for PBXNativeTarget "NOLO" */;
 			buildPhases = (
 				7B711C7A1ECC8B13001CB7C2 /* Sources */,
 				7B711C7B1ECC8B13001CB7C2 /* Frameworks */,
@@ -187,9 +187,9 @@
 			);
 			dependencies = (
 			);
-			name = YOLO;
+			name = NOLO;
 			productName = YOLO;
-			productReference = 7B711C7E1ECC8B13001CB7C2 /* YOLO.app */;
+			productReference = 7B711C7E1ECC8B13001CB7C2 /* NOLO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -204,17 +204,18 @@
 				TargetAttributes = {
 					7B711C7D1ECC8B13001CB7C2 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = MGCEKGP4Y4;
+						DevelopmentTeam = B2VSNTJJ6L;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 7B711C791ECC8B13001CB7C2 /* Build configuration list for PBXProject "YOLO" */;
+			buildConfigurationList = 7B711C791ECC8B13001CB7C2 /* Build configuration list for PBXProject "NOLO" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -223,7 +224,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B711C7D1ECC8B13001CB7C2 /* YOLO */,
+				7B711C7D1ECC8B13001CB7C2 /* NOLO */,
 			);
 		};
 /* End PBXProject section */
@@ -397,11 +398,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MGCEKGP4Y4;
+				DEVELOPMENT_TEAM = B2VSNTJJ6L;
 				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = YOLO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.machinethink.YOLO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomaskafka.NOLO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -414,10 +415,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MGCEKGP4Y4;
+				DEVELOPMENT_TEAM = B2VSNTJJ6L;
 				INFOPLIST_FILE = YOLO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.machinethink.YOLO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomaskafka.NOLO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -428,7 +429,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B711C791ECC8B13001CB7C2 /* Build configuration list for PBXProject "YOLO" */ = {
+		7B711C791ECC8B13001CB7C2 /* Build configuration list for PBXProject "NOLO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B711C8E1ECC8B13001CB7C2 /* Debug */,
@@ -437,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B711C901ECC8B13001CB7C2 /* Build configuration list for PBXNativeTarget "YOLO" */ = {
+		7B711C901ECC8B13001CB7C2 /* Build configuration list for PBXNativeTarget "NOLO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B711C911ECC8B13001CB7C2 /* Debug */,

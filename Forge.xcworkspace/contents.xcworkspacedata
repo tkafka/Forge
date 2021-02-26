@@ -17,6 +17,6 @@
       location = "group:Forge/Forge/../../Examples/MobileNets/MobileNets.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Examples/YOLO/YOLO.xcodeproj">
+      location = "group:/Users/kafkat/Dev/Forge/Examples/YOLO/NOLO.xcodeproj">
    </FileRef>
 </Workspace>
